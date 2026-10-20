@@ -362,6 +362,8 @@
 .header { padding-right: 96px; }
 .brand-title { font-size: 2.1rem; line-height: 1; }
 .btn-logout { top: 50%; transform: translateY(-50%); }
+   /* Evitar zoom por doble toque en celulares */
+  html, body, button, input, select, a { touch-action: manipulation; }
   </style>
 </head>
 <body>
